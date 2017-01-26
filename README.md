@@ -28,7 +28,7 @@
 
 #### Bonus
 - If someone searched on Google I want them to read:
-- I'm Awesome | Learn How To Be Awesome Too.
+- `I'm Awesome | Learn How To Be Awesome Too.`
 
 #### Paste within Body Container
 ```
