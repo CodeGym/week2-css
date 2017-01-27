@@ -1,5 +1,17 @@
-/* Main css file for websie 
+#menu{
+	float: left;
+	text-align: left;
+	background: transparent;
+	z-index: 4;
+	overflow: visible;
+}
 
 
-
-*/
+.list{
+	float: left;
+	padding: 2px;
+	box-sizing: content-box;
+	position: relative;
+	line-height: 1;
+	border: 0;
+}
