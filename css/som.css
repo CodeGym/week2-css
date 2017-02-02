@@ -4,6 +4,7 @@
 	overflow: visible;
 	list-style-type: none;
 	cursor: default;
+	font-family: 'open sans' , sans-serif;
 }
 
 	#menu:hover .dropdown-main {
@@ -47,6 +48,8 @@
 	color: white;
 	text-decoration: none;
 	padding: 5px;
+	width: 85px;
+	text-align: center;
 }
 
 .dropdown a {
@@ -74,4 +77,21 @@
 	height:200px;
 	width: 200px;
 	margin:10px auto;
+}
+
+.header {
+	width: 100%;
+    height: 125px;  
+    background: black;
+    position: fixed;
+    top: 0;
+    margin-bottom: 10px
+}
+
+.footer {
+	width: 100%;
+     height: 160px;
+     background: grey;
+     position: fixed;
+     bottom: 0;
 }
