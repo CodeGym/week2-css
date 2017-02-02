@@ -1,9 +1,19 @@
 #menu{
 	float: left;
 	text-align: left;
-	background: transparent;
-	z-index: 4;
 	overflow: visible;
+	list-style-type: none;
+	cursor: default;
+}
+
+	#menu:hover .dropdown-main {
+		display: inline-block;
+	}
+
+.branding {
+	float: right;
+	padding: 15px;
+	width: 33%;
 }
 
 
@@ -14,4 +24,54 @@
 	position: relative;
 	line-height: 1;
 	border: 0;
+}
+
+.dropbtn{
+	cursor: pointer;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+}
+
+.dropdown-content a {
+	display: inline-block;
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.dropdown a {
+	color: white;
+	text-decoration: none;
+}
+
+	.dropdown:hover .dropdown-content {
+		display: inline-block;
+	}
+
+
+
+.dropdown-main {
+	display: none;
+	color: white;
+}
+
+.menubtn {
+	color: white;
+	margin: 25px 25px;
+}
+
+.boxes {
+	height:200px;
+	width: 200px;
+	margin:10px auto;
 }
