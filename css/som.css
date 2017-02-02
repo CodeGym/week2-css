@@ -9,6 +9,7 @@
 
 	#menu:hover .dropdown-main {
 		display: inline-block;
+		position: relative;
 	}
 
 .branding {
@@ -22,7 +23,7 @@
 	float: left;
 	padding: 2px;
 	box-sizing: content-box;
-	position: relative;
+	position: absolute;
 	line-height: 1;
 	border: 0;
 }
