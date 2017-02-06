@@ -1,3 +1,8 @@
+#trash {
+	margin: 0px;
+	padding: 0px;
+}
+
 #menu{
 	float: left;
 	text-align: left;
@@ -11,6 +16,17 @@
 		display: inline-block;
 		position: relative;
 	}
+
+#body {
+	background: #77cce1;
+	width: 100%;
+	min-width: 1038px;
+}
+
+.links {
+	text-decoration: none;
+	color: white;
+}
 
 .branding {
 	float: right;
@@ -80,19 +96,70 @@
 	margin:10px auto;
 }
 
+#filler {
+	width: 100%;
+	height: 125px;
+	color: red;
+}
+
 .header {
 	width: 100%;
+	min-width: 1038px;
     height: 125px;  
     background: black;
-    position: fixed;
     top: 0;
-    margin-bottom: 10px
+    left: 0;
+    right: 0;
 }
 
 .footer {
 	width: 100%;
-     height: 160px;
+     height: 5px;
      background: grey;
      position: fixed;
      bottom: 0;
+}
+
+.content {
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+	font-family: 'open sans' , sans-serif;
+}
+
+.h1 {
+	text-align: center;
+
+}
+
+.h4 {
+	text-align: center;
+}
+
+.homeimg {
+	display: block;
+	width: 1008px;
+	height: 624px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.bio {
+	text-align: center;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.info {
+
 }
