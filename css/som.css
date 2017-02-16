@@ -1,6 +1,8 @@
 #trash {
 	margin: 0px;
 	padding: 0px;
+
+	background: #77cce1;
 }
 
 #menu{
@@ -162,4 +164,79 @@
 
 .info {
 
+<<<<<<< HEAD
+=======
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	background: black;
+	padding-bottom: 1px;
+
+}
+
+
+.footer-content {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.footer-widgets {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.footer-content h3 {
+	color: white;
+	text-align: center;
+}
+
+.footer-content a {
+	color: #77cce1;
+	text-decoration: none;
+}
+
+.footer-content li {
+	color: #77cce1;
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer-copyright {
+	width: 100%;
+}
+
+.footer-content a:hover {
+	color: white;
+}
+
+#searchform {
+	position: relative;
+	overflow: hidden;
+	width: 90%;
+	height: 24px;
+}
+
+#searchbar {
+	display: inline-block;
+}
+
+#submit {
+	text-indent: -1000em
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	border: 0 none;
+	background: transparent;
+}
+
+.copy {
+	color: white;
+	text-align: center;
+>>>>>>> Matthew/First-Branch
 }
