@@ -1,0 +1,229 @@
+#trash {
+	margin: 0px;
+	padding: 0px;
+	background: #77cce1;
+}
+
+#menu{
+	float: left;
+	text-align: left;
+	overflow: visible;
+	list-style-type: none;
+	cursor: default;
+	font-family: 'open sans' , sans-serif;
+}
+
+	#menu:hover .dropdown-main {
+		display: inline-block;
+		position: relative;
+	}
+
+#body {
+	width: 100%;
+	min-width: 1038px;
+}
+
+.links {
+	text-decoration: none;
+	color: white;
+}
+
+.branding {
+	float: right;
+	padding: 15px;
+	width: 33%;
+}
+
+
+.list{
+	float: left;
+	padding: 2px;
+	box-sizing: content-box;
+	position: absolute;
+	line-height: 1;
+	border: 0;
+}
+
+.dropbtn{
+	cursor: pointer;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+}
+
+.dropdown-content a {
+	display: inline-block;
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	width: 85px;
+	text-align: center;
+}
+
+.dropdown a {
+	color: white;
+	text-decoration: none;
+}
+
+	.dropdown:hover .dropdown-content {
+		display: inline-block;
+	}
+
+
+
+.dropdown-main {
+	display: none;
+	color: white;
+}
+
+.menubtn {
+	color: white;
+	margin: 25px 25px;
+}
+
+.boxes {
+	height:200px;
+	width: 200px;
+	margin:10px auto;
+}
+
+#filler {
+	width: 100%;
+	height: 125px;
+	color: red;
+}
+
+.header {
+	width: 100%;
+	min-width: 1038px;
+    height: 125px;  
+    background: black;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.content {
+	width: 1008px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+	font-family: 'open sans' , sans-serif;
+}
+
+.h1 {
+	text-align: center;
+
+}
+
+.h4 {
+	text-align: center;
+}
+
+.homeimg {
+	display: block;
+	width: 1008px;
+	height: 624px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+}
+
+.bio {
+	text-align: center;
+}
+
+.h2 {
+	text-align: center;
+}
+
+.info {
+
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	background: black;
+	padding-bottom: 1px;
+
+}
+
+
+.footer-content {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.footer-widgets {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.footer-content h3 {
+	color: white;
+	text-align: center;
+}
+
+.footer-content a {
+	color: #77cce1;
+	text-decoration: none;
+}
+
+.footer-content li {
+	color: #77cce1;
+	list-style-type: none;
+	text-align: left;
+}
+
+.footer-copyright {
+	width: 100%;
+}
+
+.footer-content a:hover {
+	color: white;
+}
+
+#searchform {
+	position: relative;
+	overflow: hidden;
+	width: 90%;
+	height: 24px;
+}
+
+#searchbar {
+	display: inline-block;
+}
+
+#submit {
+	text-indent: -1000em
+	width: 24px;
+	height: 24px;
+	position: absolute;
+	top: -2px;
+	right: 0px;
+	border: 0 none;
+	background: transparent;
+}
+
+.copy {
+	color: white;
+	text-align: center;
+}
